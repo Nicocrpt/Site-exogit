@@ -13,6 +13,31 @@ p {
 }
 ul {
     color: cadetblue;
+    
+}
+
+nav {
+    
+    background-color: cornflowerblue;
+}
+
+nav ul {
+    
+    list-style-type: none;
+    padding: 0px;
+    
+}
+
+li {
+    width: fit-content;
+}
+
+nav li {
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    color: white;
 }
 
 /* selecteur de classe .gras */
@@ -24,6 +49,10 @@ ul {
 }
 .souligner {
     text-decoration: underline;
+} 
+
+.bordure {
+    border: solid 1px red;
 }
 
 /* #paragraphe 1 -> selecteur (type id) */
