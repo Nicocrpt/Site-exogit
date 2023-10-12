@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test display</title>
+
+
+    <!--balise style permet d'integrer le css directement dans le fichier html, pratique pour tests-->
+    <style>
+        .bordure {
+            border: solid 1px red;
+        }
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .gras {
+            font-weight: bold;
+        }
+
+        #test {
+            color: red;
+            height: 500px;
+            margin: 30px;
+            padding: 30px;
+        }
+
+        #bloc {
+            padding: 30px;
+        }
+    </style>
+
+
+
+</head>
+<body class="bordure">
+
+    <!--la propriété display permet de controler le positionnement des elements par rapport a leur environnement-->
+
+    <!--Elements display=block (h1, h2, p, div, ul, li)-->
+    <h1 class="bordure">Titre</h1>
+    <h2 class="bordure">Sous titre</h2>
+
+    <p id="bloc" class="bordure">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis assumenda suscipit, magnam officia sint quae tempore nostrum laboriosam mollitia vel aut ipsum similique iure molestias consectetur at dolores ab commodi.</p>
+
+    <div class="bordure">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam laboriosam cumque dolores, culpa iure perferendis doloremque nemo quasi, aut explicabo ab quibusdam. Ab neque saepe perferendis culpa ex, est quis!</div>
+    <ul class="bordure">
+        <li class="bordure">L1</li>
+        <li class="bordure">L2</li>
+    </ul>
+    <address>adresse</address>
+
+
+    <!--elements display = inline (a, img, span) padding horizontal seulement-->
+    Lorem ipsum dolor sit <a href="#">amet</a>, consectetur adipisicing elit. Minima, in voluptatem? Necessitatibus, praesentium, tenetur facilis consequuntur odit ut magnam exercitationem reprehenderit quis, labore consectetur dicta quidem velit doloribus consequatur iure.
+    <br>
+    <img src="/Users/nico/Documents/BTS SIO VSCode Dev/Exo Git/images/DSCF0268.jpg" alt="reflets, eau">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi veritatis, autem maiores cum facilis doloribus ad ratione ducimus id! Tempora soluta <span id="test" class="bordure">perferendis</span> debitis ipsum pariatur esse consectetur repudiandae corrupti beatae.
+
+</body>
+</html>
